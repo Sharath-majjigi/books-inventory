@@ -46,11 +46,11 @@ Enter the fields to updateby passing id as pathvariable
 
 Returns all books in the database.
 
-### `GET /api/{id}/book`
+### `GET /api/v1/{id}/book`
 
 Returns the book with the specified ID.
 
-### `GET /api/v1?name="xyz&author="xyz"
+### `GET /api/v1?name="xyz"&author="xyz"`
 
 Returns all books that match the given filter criteria. The following query parameters are supported:
 
